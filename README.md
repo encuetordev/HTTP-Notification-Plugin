@@ -4,21 +4,26 @@ This project is a custom plugin for Rundeck that sends HTTP notifications. It al
 ## Building
 
 To build the project, run:
-
+```bash
 mvn clean package
-
+```
 ## Testing
 
 To run all tests:
 
 ```bash
 mvn test
+```
 
 This will run all tests and produce:
 
+```bash
 target/rundeck-http-notification-1.0-SNAPSHOT.jar
+```
 
 ## Quick Install
 
+```bash
 curl https://raw.githubusercontent.com/rundeck/packaging/main/scripts/rpm-setup.sh 2> /dev/null | sudo bash -s rundeckpro
 sudo yum install java rundeckpro-enterprise
+```
