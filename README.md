@@ -11,6 +11,7 @@ mvn clean package
 
 To run all tests:
 
+```bash
 mvn test
 
 This will run all tests and produce:
