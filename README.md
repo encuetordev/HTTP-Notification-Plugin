@@ -17,7 +17,7 @@ This will run all tests and produce:
 
 target/rundeck-http-notification-1.0-SNAPSHOT.jar
 
-#Quick Install
+## Quick Install
 
 curl https://raw.githubusercontent.com/rundeck/packaging/main/scripts/rpm-setup.sh 2> /dev/null | sudo bash -s rundeckpro
 sudo yum install java rundeckpro-enterprise
